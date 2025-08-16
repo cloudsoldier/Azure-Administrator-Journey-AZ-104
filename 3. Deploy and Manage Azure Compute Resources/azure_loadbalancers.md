@@ -8,3 +8,53 @@ Lab
 
 
 <img width="831" height="576" alt="image" src="https://github.com/user-attachments/assets/d6efb533-384b-4cf2-a83c-d91eec2845ba" />
+
+
+create two vms 
+create availabitly set
+To have an azure load balancer we must availabiltiy set call it app-set
+first vm name webvm-linux-01
+use B1
+Aurezure
+ceate new vnet 
+app-network
+subnet change defalt websubnet01
+no NSG
+rewview and create
+
+---create a nsg group
+
+call it app-nsg
+
+---
+
+create 2nd vm
+
+webvm-linux-02
+
+part of same av set
+
+username 
+
+no nsg
+
+create vm
+
+---
+
+got to nsg group
+
+create a inboud rul to allow from 
+- my ip addresss
+- to bothe vm private ip address
+- SSH
+- priority 200
+
+------
+
+Add another rule
+
+This time same as above but need http
+
+in NSG group go to subnets and associate to websubnet
+
