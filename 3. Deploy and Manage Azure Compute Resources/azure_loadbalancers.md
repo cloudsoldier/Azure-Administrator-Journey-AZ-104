@@ -58,3 +58,9 @@ This time same as above but need http
 
 in NSG group go to subnets and associate to websubnet
 
+
+####### Load balancer deployment
+
+<img width="591" height="482" alt="image" src="https://github.com/user-attachments/assets/081c720a-c82f-44b2-9f1a-2337c24d37fd" />
+
+
